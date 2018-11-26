@@ -10,7 +10,7 @@ class Index extends React.Component {
     };
   }
   componentDidMount() {
-    console.log(process.env.NODE_ENV);
+   
   }
   render() {
     return (
