@@ -9,6 +9,9 @@ class Index extends React.Component {
       pop: 'pop'
     };
   }
+  componentDidMount() {
+    console.log(process.env.NODE_ENV);
+  }
   render() {
     return (
       <div>

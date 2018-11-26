@@ -4,7 +4,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = {
   module: {
-    // parser: 'sugarss',
     rules: [
       {
         enforce: 'pre',
@@ -103,10 +102,6 @@ module.exports = {
     ]
   },
   plugins: [
-    // {
-    //     'postcss-import': {},
-    //     'postcss-cssnext': {},
-    //     'cssnano': {}
-    // }
+
   ]
 };
